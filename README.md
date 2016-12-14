@@ -10,4 +10,6 @@ ssh:
     - container_name
   ports:
     - "1122:22"
+  environment:
+    GITHUB_USERNAME: darmstaedter
 ```
